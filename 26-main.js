@@ -15,3 +15,10 @@ const childElement = document.querySelector("#secondElement");
 // childElement.remove();  // first way
 parentElement.removeChild(childElement);  // second way
 
+// add node
+const pElement = document.createElement("p");
+const text = document.createTextNode("My footer section");
+const footer = document.querySelector("footer");
+pElement.appendChild(text);
+footer.appendChild(pElement);
+

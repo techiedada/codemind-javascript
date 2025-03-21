@@ -6,3 +6,8 @@ const data = str.split("");
 const ans = data.reverse();
 console.log("Revers of given string is: "+ans.join(""));
 
+console.log("Second large element in array");
+const array = [2,5,7,9,34,56];
+const res =array.sort();
+console.log(res);
+
